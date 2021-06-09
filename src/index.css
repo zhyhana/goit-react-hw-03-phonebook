@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+}
+
+main {
+  width: 700px;
+  margin: 0 auto;
+}
+
+p,
+ul,
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 0;
+}

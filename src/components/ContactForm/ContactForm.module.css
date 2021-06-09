@@ -1,0 +1,43 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  padding: 10px;
+  width: 400px;
+  outline: 2px solid silver;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+
+.input {
+  margin-top: 6px;
+  padding: 5px 10px;
+  outline: none;
+  border: 1px solid silver;
+}
+
+.input:focus {
+  outline: 2px solid rgb(71, 172, 255);
+}
+
+.button {
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 30px;
+  margin: 10px 20px;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid #5c99f5;
+  border-radius: 3px;
+  color: #5c99f5;
+}
+.button:hover {
+  background: #5c99f5;
+  color: #fff;
+}
